@@ -4,7 +4,7 @@
     margin: 0;
 
 }
-
+/* home page styles  */
 
 .header{
     background: rgba(255, 144, 14, 0.1);
@@ -63,7 +63,7 @@
     color: #727272;
     margin-bottom: 32px;
 }
-
+/* button styles */
 .button{
     font-weight: 600;
     font-size: 20px;
@@ -84,6 +84,8 @@
     text-align: center;
 }
 
+/* home page banner image styles */
+
 .banner-img{
     margin-top: 50px;
     margin-bottom: 40px;
@@ -94,6 +96,19 @@
     
 }
 
+/* first section styles */
+
+.section1{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 18% ;
+
+}
+
+/* set grid in image and styles */
 .team-img{
     
     
@@ -109,15 +124,7 @@
     border-radius: 10px;
 }
 
-.section1{
-    display: flex;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    justify-content: center;
-    align-items: center;
-    margin: 50px 18% ;
 
-}
 
 .feature{
     font-weight: 700;
@@ -144,6 +151,8 @@
     color: #727272;
     margin-top: 10px;
 }
+
+/* explore button styles */
    
 .feature-button{
     font-weight: 600;
@@ -161,6 +170,7 @@
 
 }
 
+/* second section styles */
 .feature-we-provide-title-div{
     margin-bottom: 25px;
 }
@@ -198,11 +208,11 @@
 
 .architect-img{
     display: block;
-    float: right;
+    /* image right align  */
+    float: right; 
     width:auto; 
     height: 80%;
-    /* margin-right: 0%;
-    position: right; */
+    
 
 }
 
@@ -219,7 +229,7 @@
     
 }
 
-
+/* button styles which is over image  */
 
 .year-button{
     
@@ -244,6 +254,8 @@
    
 
 }
+
+/* achievement section styles */
 
 .achievement-section{
     font-weight: 700;
@@ -272,6 +284,7 @@
 
 }
 
+/* sponsor section styles */
 .sponsor-section{
     margin-top: 70px;
 }
@@ -292,7 +305,7 @@
 
     margin: 50px 10%;
 }
-
+/* footer style  */
 footer{
     text-align: center;
     background: #FFF4E7;
@@ -302,4 +315,46 @@ footer{
     margin: 100px 10%;
 }
 
+/* bonus section style  */
 
+.bonus-section{
+    margin: 70px 10%;
+    border: 1px solid white;
+    box-shadow:0px 4px 30px rgba(0, 0, 0, 0.06); 
+}
+
+.bonus-section-body{
+    display: flex;
+    justify-content: center;
+}
+
+.bonus-image{
+    display: block;
+    float: right;
+    width: 60%;
+}
+
+/* add some animation for bonus mark  */
+.image:hover{
+    transform:scale(2)
+    /* add zoom in the grid image */
+}
+/* button's color change when mouse cursor on it  */
+.button:hover{
+    background-color: rgb(255, 187, 0);
+}
+
+.feature-button:hover{
+    background-color: rgb(255, 187, 0);
+}
+.year-button:hover{
+    background-color: rgb(255, 187, 0);
+
+}
+
+@media screen and (max-width:576px) {
+    .ul{
+        flex-direction: column;
+    }
+    
+}
