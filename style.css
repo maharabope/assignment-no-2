@@ -214,13 +214,12 @@
 }
 
 .feature-we-provide-section{
-    margin: 80px 10%;
+    margin: 0 10%;
+    margin-top: 50px;
     
 }
 
-.year-button-div{
-    
-}
+
 
 .year-button{
     
@@ -245,6 +244,62 @@
    
 
 }
+
+.achievement-section{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 53px;
+
+}
+
+.achievement-section-text{
+    margin: 50px 10%;
+}
     
+.achievement-icon{
+    border: 1px solid #FF900E;
+    height: 150px;
+    width: 150px;
+    border-radius: 5px;
+    margin: 3%;
+    padding: 20px;
+    text-align: center;
+}
+
+.all-achievement-icon{
+    display: flex;
+    justify-content: center;
+
+}
+
+.sponsor-section{
+    margin-top: 70px;
+}
+
+.sponsor-section-title{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+}
+
+.sponsor-section-text{
+    text-align: center;
+}
+
+.all-sponsor{
+    display: flex;
+    justify-content: space-evenly;
+
+    margin: 50px 10%;
+}
+
+footer{
+    text-align: center;
+    background: #FFF4E7;
+    height: 50px;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 100px 10%;
+}
 
 
